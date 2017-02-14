@@ -22,7 +22,8 @@ path=${path%/}
 # Copy source files
 src_path=/var/www/$app
 sudo mkdir -p $src_path
-sudo cp -a ../sources/. $src_path
+sudo git --git-dir "$final_path/.git" remote update
+sudo git --git-dir "$final_path/.git" checkout 59388e60e76ca4d3657e0398c553da9186cbf1ce
 
 # Set permissions to app files
 # you may need to make some file and/or directory writeable by www-data (nginx user)
