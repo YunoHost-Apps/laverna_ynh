@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Exit on command errors and treat unset variables as an error
+set -u
+
 # See comments in install script
 app=$YNH_APP_INSTANCE_NAME
 
