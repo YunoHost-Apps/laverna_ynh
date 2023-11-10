@@ -17,11 +17,14 @@ admindoc = "https://github.com/Laverna/laverna/wiki"
 code = "https://github.com/Laverna/laverna"
 
 [integration]
-yunohost = ">> 11.2"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
+
 ldap = false
+
 sso = false
+
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
