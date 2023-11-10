@@ -2,10 +2,10 @@ packaging_format = 2
 
 id = "laverna"
 name = "Laverna"
-description.en = "Taking note application with Markdown editor and encryption support"
-description.fr = "Application de Prise de note avec éditeur Markdown et chiffrement"
+description.en = "Taking note with Markdown editor and encryption support"
+description.fr = "Prise de note avec éditeur Markdown et chiffrement"
 
-version = "0.7.51~ynh5"
+version = "0.7.51~ynh6"
 
 maintainers = []
 
