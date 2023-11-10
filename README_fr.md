@@ -20,7 +20,7 @@ Laverna est un système anonyme, crypté et sans inscription requise, il est acc
 Les données sont privées, car stockées par défaut sur votre machine (InnoDB et localstorage), c’est un réglage dans les paramètres qui vous permettra de les synchroniser via le cloud sur vos différents périphériques.
 
 
-**Version incluse :** 0.7.51~ynh5
+**Version incluse :** 0.7.51~ynh6
 
 **Démo :** https://laverna.cc/app/
 
